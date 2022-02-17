@@ -49,6 +49,18 @@ public class RegularPolygon {
         this.n = n;
     }
 
+    public void setSide(double side) {
+        this.side = side;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
     public double getPerimeter(){
         return n * side;
     }
